@@ -18,6 +18,13 @@ body, input, button {
     transform: translate(-50%, -50%);
 }
 
+.hidden{
+    display: none;
+}
+.block{
+    display: block;
+}
+
 h1, footer{
     color: var(--white);
 }
@@ -57,7 +64,7 @@ footer{
     text-align: center;
 }
 
-#foto{
-  height: 200px; /* Ou qualquer outra altura */
-  overflow: hidden; /* Importante para esconder as partes que excedem */
+#image{
+    width: 8em;
+    margin: auto;
 }
